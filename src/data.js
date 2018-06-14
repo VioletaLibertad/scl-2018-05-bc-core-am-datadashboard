@@ -2,10 +2,12 @@ window.computeUsersStats = (users, progress, courses) => {
 
 };
 
-window.sortUsers = (users, orderBy, orderDirection) => {
+window.sortUsers = (users, orderBuy, orderDirection) => {
 
 };
+
 
 window.filterUsers = (users, search) => {
 
 };
+
