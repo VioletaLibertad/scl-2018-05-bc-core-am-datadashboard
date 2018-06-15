@@ -11,8 +11,14 @@ Esto luego permite acceder a cada uno de los cohorts de los cursos y luego al pe
 
 ## Prototipos
 
-Un primer prototipo de nuestro proyecto se puede encontrar en el siguiente link: https://balsamiq.cloud/shrbofs/pnthqvq Este modelo ha sido realizado con la aplicación Balsamiq. También puede ser encontrado en el repositorio dentro de la carpeta "Sketch" bajo el nombre "Dashboard" como un archivo PDF.
+Un primer prototipo de nuestro proyecto se puede encontrar en el siguiente link: https://balsamiq.cloud/shrbofs/pnthqvq Este modelo ha sido realizado con la aplicación Balsamiq. También puede ser encontrado en el repositorio dentro de la carpeta "Sketch" bajo el nombre "Dashboard" como un archivo PDF. Junto a él se podrá encontrar los bocetos originales realizados en papel de la primera versión del Dashboard. 
 
-Una primera version en alta definicion la estamos creando con la aplicación Figma, y puede ser encontrada en el link: https://www.figma.com/file/Gw0C6liqJO0vQLITLMFQUdGk/Proyecto-Dashboard
+Una version en alta definicion la estamos creando con la aplicación Figma, y puede ser encontrada en el link: https://www.figma.com/file/Gw0C6liqJO0vQLITLMFQUdGk/Proyecto-Dashboard
+
+## Desarrollo
+
+Hemos por varias etapas de iteración del Dashboard, a medida que nuestros conocimientos de programación se ha ido ampliando. La última adición importante ha sido la incorporación del Framework de Bootstrap para facilitar la creación de la parte gráfica del proyecto. Esto ha sido fundamental para lograr un Dashboard mas fluido en cuanto a estructura y Responsiveness. 
+
+Actualmente nos encontramos trabajando en la implementación del DOM y de la Lógica funcional de JavaScript. Se agradecen los comentarios y sugerencias :)
 
 ### Sitio en construccion.
