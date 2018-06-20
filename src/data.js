@@ -1,8 +1,9 @@
 window.computeUsersStats = (users, progress, courses) => {
+  console.log('holi');
 
 };
 
-window.sortUsers = (users, orderBuy, orderDirection) => {
+window.sortUsers = (users, orderBy, orderDirection) => {
 
 };
 

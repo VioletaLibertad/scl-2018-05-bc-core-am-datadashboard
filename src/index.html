@@ -26,20 +26,22 @@
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
             aria-expanded="false">
-            Ciudad
+            Lima
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" id="lima" href="#">Lima</a>
-            <a class="dropdown-item" id="santiago" href="#">Santiago</a>
+            <a class="dropdown-item" id="lima-users" href="#">Usuarios</a>
+            <a class="dropdown-item" id="lima" href="#">Cohorts</a>
             <a class="dropdown-item" id="mexico" href="#">Ciudad de México</a>
             <a class="dropdown-item" id="brasil" href="#">Sao Paulo</a>
           </div>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" id="cohorts-list">Cohorts</a>
+        </li>
 
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
-            aria-expanded="false">
-            Generación
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Generacion
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="#">2016</a>
@@ -65,16 +67,26 @@
       </form>
     </div>
   </nav>
-
+<br>
   <!-- Cohorts List -->
   <section>
     <div class="container-fluid">
       <div class="row">
         <div class="col"></div>
         <div class="col-sm-5 cohort-green">
-          <p class="font-weight-bold" id="cohort-name"></p>
-          <p class="font-weight-normal" id="cohort-info"></p>
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title">Card title</h4>
+              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up the bulk of the card's content.
+              </p>
+              <a href="#!" class="card-link">Card link</a>
+              <a href="#!" class="card-link">Another link</a>
+            </div>
+          </div>
         </div>
+
         <div class="col-sm-5 cohort-green">
           <p class="font-weight-bold" id="cohort-name"></p>
           <p class="font-weight-normal" id="cohort-info"></p>
@@ -89,21 +101,15 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col"></div>
-        <div class="col-sm-10 cohort-info-color">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        </div>
+        <div class="col-sm-10 cohort-info-color"></div>
         <div class="col"></div>
       </div>
     </div>
     <div class="container-fluid">
       <div class="row">
         <div class="col"></div>
-        <div class="col-sm-4 students-list-color">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        </div>
-        <div class="col-sm-6 courses-list-color">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        </div>
+        <div class="col-sm-4 students-list-color"></div>
+        <div class="col-sm-6 courses-list-color"></div>
         <div class="col"></div>
       </div>
     </div>
@@ -123,7 +129,7 @@
     </div>
   </section>
 
-  <!-- Students basic Info: courses list, courses completed-->
+  <!-- Students basic Info: users, progress and courses-->
   <section>
     <div class="container fluid">
       <div class="row">
@@ -132,6 +138,16 @@
     </div>
     <div class="container-fluid">
       <div class="row">
+        <div class="col"></div>
+        <div class="col-sm-4">
+          <div class="card students-container">
+            <ul class="list-group list-group-flush">
+              <h5>Miembros del Cohort</h5>
+              <li class="list-group-item" id="containerUsers"></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-6"></div>
         <div class="col"></div>
       </div>
     </div>

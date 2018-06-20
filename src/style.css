@@ -19,6 +19,12 @@
   background-color: rgb(86, 248, 154, 0.4);
 }
 
+.students-container {
+  overflow: scroll;
+  height: 27em;
+  text-align: center;
+}
+
 /* COHORTS LIST
 .cohort-green {
   background-color: rgb(86, 248, 154, 0.4);
@@ -28,7 +34,7 @@
 }
 */
 
-/* COHORT PREVIEW */
+/* COHORT PREVIEW 
 .cohort-info-color {
   background-color: rgb(86, 248, 154, 0.4);
   color: #000;
@@ -49,3 +55,4 @@
   padding: 5px;
   margin: 5px;
 }
+*/
