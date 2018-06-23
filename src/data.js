@@ -1,4 +1,5 @@
 window.computeUsersStats = (users, progress, courses) => {
+
   console.log(users, progress, courses);
 
 };
@@ -12,3 +13,6 @@ window.filterUsers = (users, search) => {
 
 };
 
+window.processCohortData = (options) => {
+
+};
