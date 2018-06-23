@@ -26,11 +26,12 @@
   display: none;
 }
 
-#cohort-container {
-  overflow: scroll;
-  height: 27em;
-  text-align: center;
+
+#cohortStyle {
   display: none;
+  overflow: scroll;
+  height: 5%;
+  width: 100%;
 }
 
 /* COHORTS LIST
