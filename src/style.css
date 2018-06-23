@@ -26,6 +26,13 @@
   display: none;
 }
 
+#cohortStyle {
+  display: none;
+  overflow: scroll;
+  height: 5%;
+  width: 100%;
+}
+
 /* COHORTS LIST
 .cohort-green {
   background-color: rgb(86, 248, 154, 0.4);

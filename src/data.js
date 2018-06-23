@@ -1,5 +1,5 @@
 window.computeUsersStats = (users, progress, courses) => {
-  console.log('holi');
+  console.log(users, progress, courses);
 
 };
 
