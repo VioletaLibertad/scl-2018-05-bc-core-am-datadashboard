@@ -1,5 +1,9 @@
 /* BASIC CONFIGURATION */
 
+body {
+  background-image: "../img/Laboratoria-4.jpg";
+}
+
 .container-fluid {
   padding: 0;
   margin: 0;
