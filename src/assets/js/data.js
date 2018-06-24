@@ -39,7 +39,6 @@ window.onload = () => {
     });
   }
 
-<<<<<<< HEAD:src/assets/js/data.js
   limaCourses.addEventListener('click', () => {
     computeUsersStats();
   });
@@ -71,7 +70,7 @@ window.sortUsers = (users, orderBy, orderDirection) => {
 window.filterUsers = (users, search) => {
 
 };
-=======
-}
 
->>>>>>> 9bf6bb98ae88d68b197ffde30cab6028c572b740:src/main.js
+window.processCohortData = (options) => {
+
+};
