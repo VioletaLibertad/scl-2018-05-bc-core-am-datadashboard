@@ -1,6 +1,9 @@
 // DOM
 // Cohorts List on cohorts.json
 /*
+
+TODO ESTO FUE CREADO CUANDO PENSÁBAMOS QUE AGARRANDO LOS DATOS DESDE JSON Y PEGANDOLOS EN EL DOCUMENTO, ESTABAMOS READY. EVENTUALMENTE LO USAREMOS CUANDO PODAMOS HACER FUNCIONAR LAS FUNCIONES DEL DATA.JS
+
 const cohortContainer = document.getElementById('cohort-container'); // Donde le doy estilo
 const cohortStyle = document.getElementById('cohortStyle');
 

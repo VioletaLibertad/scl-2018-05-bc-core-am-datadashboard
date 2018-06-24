@@ -45,19 +45,45 @@ window.onload = () => {
   });
 
   window.computeUsersStats = (users, progress, courses) => {
-    
-    /*
-    class Stats {
-      constructor(percent, exercises, reads, quizzes) {
-        this.percent = percent, 
-        this.exercises = exercises, 
-        this.read = reads, 
-        this.quizzes = quizzes, 
-      }
-    }
-    */
+
   };
 };
+
+class Stats {
+  constructor(percent, exercises, reads, quizzes) {
+    this.percent = percent,
+    this.exercises = exercises,
+    this.read = reads,
+    this.quizzes = quizzes;
+  }
+}
+
+class Exercises {
+  constructor(total, completed, percent) {
+    this.total = total,
+    this.completed = completed,
+    this.percent = percent;
+  }
+}
+
+class Reads {
+  constructor(total, completed, percent) {
+    this.total = total,
+    this.completed = completed,
+    this.percent = percent;
+  }
+}
+
+class Quizzes {
+  constructor(total, completed, percent, scoreSum, scoreAvg) {
+    this.total = total,
+    this.completed = completed,
+    this.percent = percent,
+    this.scoreSum = scoreSum,
+    this.scoreAvg = scoreAvg;
+  }
+}
+
 
 window.sortUsers = (users, orderBy, orderDirection) => {
 
