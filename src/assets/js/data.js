@@ -92,4 +92,12 @@ window.sortUsers = (users, orderBy, orderDirection) => {
 
 window.filterUsers = (users, search) => {
 
+<<<<<<< HEAD
 };
+=======
+};
+
+window.processCohortData = (options) => {
+
+};
+>>>>>>> fbad1fafdd1e597fbea684875efdae21c1625ae8
