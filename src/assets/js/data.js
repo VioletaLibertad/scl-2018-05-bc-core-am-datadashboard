@@ -39,4 +39,26 @@ window.onload = () => {
       console.log('Hay un error: ' + error);
     });
   }
+
+  limaCourses.addEventListener('click', () => {
+    computeUsersStats();
+  });
+
+  window.computeUsersStats = (users, progress, courses) => {
+
+  };
+};
+
+window.sortUsers = (users, orderBy, orderDirection) => {
+
+};
+
+
+window.filterUsers = (users, search) => {
+
+};
+
+window.processCohortData = (options) => {
+
+
 };
