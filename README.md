@@ -23,6 +23,6 @@ Actualmente nos encontramos trabajando en la implementación del DOM y de la Ló
 
 ## Visualización
 
-Para visualizar el avance que se realiza en este proyecto, puedes hacer click en el siguiente [link].
+Para visualizar el avance que se realiza en este proyecto, puedes hacer click en el siguiente [link](https://violetalibertad.github.io/scl-2018-05-bc-core-am-datadashboard/).
 
 ### Sitio en construccion
